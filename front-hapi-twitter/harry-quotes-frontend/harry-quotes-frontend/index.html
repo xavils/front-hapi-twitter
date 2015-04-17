@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<title>Harry Quotes</title>
+
+	<!-- Bootstrap CDN -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+
+	<!-- CSS -->
+	<link href="css/custom.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+<header>
+	<h1>Harry Quotes Headquarters</h1>
+</header>
+	
+	<!-- Search Input -->
+	<div class="input-group">
+	  <span class="input-group-addon" id="search">Search</span>
+	  <div class="ui-widget">
+	    <input type="text" class="form-control getInput inputHeight" id="searchQuery" placeholder="Search">
+	  </div>
+	  <span class="input-group-btn">
+	    <button class="btn btn-default" type="button" id="searchQuote">
+	      <span class="glyphicon glyphicon-plus" aria-hidden="true"></span>
+	    </button>
+	  </span>
+	</div>
+	<div>
+		<table class="query table table-responsive">	
+		</table>
+	</div>
+
+	<!-- Add Quote -->
+	<div class="input-group">
+	  <span class="input-group-addon" id="addAQuote">Add a quote</span>
+	  <div class="ui-widget">
+	    <input type="text" class="form-control getInput inputHeight inline" id="quote" placeholder="New Quote">
+	    <input type="text" class="form-control getInput inputHeight inline" id="author" placeholder="Author">
+	  </div>
+	  <span class="input-group-btn">
+	    <button class="btn btn-default" type="button" id="addQuote">
+	      <span class="glyphicon glyphicon-plus" aria-hidden="true"></span>
+	    </button>
+	  </span>
+	</div>
+	<br>
+
+	<!-- Quotes -->
+	<div>
+		<table class="content table table-responsive">	
+		</table>
+		
+	</div>
+
+	<!-- Ajax CDN -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+	<!-- Bootstrap CDN -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+  <!-- JS CDN -->
+	<script src="js/application.js"></script>
+
+</body>
+</html>

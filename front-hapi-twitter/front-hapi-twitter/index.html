@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Tweeter</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Twitter lookalaike with a twist">
+    <meta name="author" content="xavils">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <link href="custom.css" rel="stylesheet">
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <section class="introText col-xs-12 col-sm-7">
+          <h1>Welcome to Tweeter</h1>
+          <p>Connect with your friends — and other fascinating people. Get in-the-moment updates on the things that interest you. And watch events unfold, in real time, from every angle.</p>
+        </section>
+        <section class="signInUp col-xs-12 col-sm-5">
+          <div class="signIn">
+            <input  type="userName" class="form-control" id="userName" placeholder="Username">
+            <div class="input-group">
+              <input  type="password" class="form-control" id="password" placeholder="Password">
+              <span class="input-group-btn">
+                <button class="btn btn-default" id="signInButton" type="button">Sign In</button>
+              </span>
+            </div>
+          </div>
+          <div class="signUp">
+            <div class="someText"><b>New to tweeter?</b> Sign up!</div>
+            <input  type="username" class="form-control" id="newUserName" placeholder="Username">
+            <input type="email" class="form-control" id="newEmail" placeholder="Email">
+            <input  type="password" class="form-control" id="newPassword" placeholder="Password">
+            <a class="btn btn-default" id="signUpButton" href="#" role="button">Register</a>
+          </div>
+        </section>
+      </div>
+    </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  <script src="application.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+  </body>
+</html>

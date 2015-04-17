@@ -1,0 +1,73 @@
+body {
+	background: url(https://abs.twimg.com/b/front_page/v1/JP_ASIA_4.jpg) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+.container {
+	max-width: 70%;
+	padding-top: 10%;
+}
+.introText {
+	color: white;
+	font-family: Helvetica;
+}
+h1 {
+	font-weight: bold;
+	font-size: 47px;
+	padding-bottom: 20px;
+	padding-right: 20px;
+}
+p {
+	font-size: 20px;
+	margin-right: 20px;
+}
+.signIn, .signUp {
+	background-color: white;
+	border-radius: 6px;
+	padding: 15px;
+}
+.signIn {
+	margin-bottom: 15px;	
+}
+.signUp {
+	padding-bottom: 45px;
+}
+.sameLine {
+	display: inline-block;
+}
+#signUpButton {
+	background-color: #ffac33;
+	background-image: linear-gradient(#ffcc4d,#ffac33);
+	border: 0;
+	float: right;
+	color: white;
+	font-weight: bold;
+}
+#signUpButton:hover {
+	opacity: 0.8;
+}
+#signInButton {
+	background-color: #55acee;
+	background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0.15));
+	border: 0;
+	float: right;
+	color: white;
+	font-weight: bold;
+	height: auto;
+	vertical-align: center;
+	margin-top: 5px;
+}
+#signInButton:hover {
+	opacity: 0.8;
+}
+input {
+	margin: 5px 5px 5px 0;
+}
+.someText {
+  border-bottom: 1px solid #BBB;
+	margin-bottom: 10px;
+	padding-bottom: 10px;
+	font-size: 15px;
+}
