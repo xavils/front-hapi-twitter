@@ -1,4 +1,6 @@
 $ (document).ready(function(){
+	
+	$('.home').hide();
 
 	$('#signUpButton').on('click', function(){
 		$.ajax({

@@ -4,10 +4,14 @@ body {
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
+	padding-top: 75px;
 }
 .container {
 	max-width: 70%;
 	padding-top: 10%;
+}
+.container-fluid {
+	max-width: 70%;
 }
 .introText {
 	color: white;
@@ -70,4 +74,11 @@ input {
 	margin-bottom: 10px;
 	padding-bottom: 10px;
 	font-size: 15px;
+}
+.title {
+	font-size: 30px;
+	font-weight: bold;
+}
+.content {
+	background-color: white;
 }
